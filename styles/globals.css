@@ -19,7 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #F5F5DC;
-  font-family: Manrope;
+  font-family: Arial, Helvetica, sans-serif;
   
     
 }
