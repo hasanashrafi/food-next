@@ -5,12 +5,11 @@ function Layout({ children }) {
     return (
         <>
             <header className='flex flex-wrap p-1  min-w-full h-fit place-items-center bg-[#004225] justify-between'>
-                <div className='p-2 text-2xl w-fit font-semibold text-[#F5F5DC]  m-2'>
+                <div className='p-2 text-2xl w-1/4 sm:w-fit font-semibold text-[#F5F5DC]  m-2'>
                     <Link href='/' className='hover:text-white'>YEMEK</Link>
                 </div>
-                <div className='flex flex-col text-[#FFB000] py-2 text-center justify-center '>
-                    <GiFullPizza className='text-5xl self-center' />
-
+                <div className='flex flex-col  text-[#FFB000] py-2 text-center justify-center  '>
+                    <GiFullPizza className='text-5xl  self-center' />
                 </div>
 
                 <div className='flex flex-wrap justify-around  text-[#F5F5DC]  w-1/10 sm:w-48 md:w-48 xl:w-48 text-sm sm:font-semibold  p-2 m-2'>
