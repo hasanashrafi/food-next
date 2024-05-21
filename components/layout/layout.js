@@ -8,12 +8,12 @@ function Layout({ children }) {
                 <div className='p-2 text-2xl w-48 font-semibold text-[#F5F5DC]  m-2'>
                     <Link href='/' className='hover:text-white'>YEMEK</Link>
                 </div>
-                <div className='flex flex-col text-[#FFB000] text-center justify-center '>
+                <div className='flex flex-col text-[#FFB000] py-2 text-center justify-center '>
                     <GiFullPizza className='text-5xl self-center' />
-                    <p>Tatli Yemek!</p>
+
                 </div>
 
-                <div className='flex flex-wrap justify-around  text-[#F5F5DC]  w-1/3 xl:w-48 font-semibold  p-2 m-2'>
+                <div className='flex flex-wrap justify-around  text-[#F5F5DC]  w-1/3 sm:w-48 md:w-48 xl:w-48 font-semibold  p-2 m-2'>
                     <Link href='/menu' className='hover:text-white ' >Menu</Link>
                     <Link href='/categories' className='hover:text-white '>Categories</Link>
                 </div>
