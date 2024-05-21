@@ -15,7 +15,7 @@ function Banner() {
                 <Link href="/menu" className="w-fit py-2.5 self-center xl:self-start md:self-start sm:self-start px-6 mt-6 rounded text-white bg-[#53c60b] hover:bg-green-700 ease-in-out">See All</Link>
             </div>
 
-            <div className='sm:w-96 w-60 m-auto sm:text-center '>
+            <div className='sm:w-96 w-60 m-auto mt-5 sm:text-center '>
                 <img src="/images/banner.png" alt="Food image" />
             </div>
         </div>
