@@ -1,5 +1,6 @@
 import Attributes from "../modules/Attributes"
 import Banner from "../modules/Banner"
+import Companies from "../modules/Companies"
 import Definition from "../modules/Definition"
 
 function HomePage() {
@@ -8,6 +9,7 @@ function HomePage() {
             <Banner />
             <Attributes />
             <Definition />
+            <Companies/>
         </div>
     )
 }
