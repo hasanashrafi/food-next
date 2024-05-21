@@ -10,10 +10,13 @@
     "serve-json": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.2.1",
     "json-server": "^1.0.0-beta.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
     "react-icons": "^5.2.1"
   },
   "devDependencies": {
