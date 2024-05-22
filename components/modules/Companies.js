@@ -5,18 +5,19 @@ import Apple from "../icons/Apple";
 import Binance from "../icons/Binance";
 import Marquee from "react-fast-marquee";
 
-import CIcon from "@coreui/icons-react";
-import { cilPizza } from "@coreui/icons";
 
 function Companies() {
     return (
         <div className='w-full flex items-center justify-around'>
             <Marquee>
-                <Apple />
-                <SpaceX />
-                <Binance />
-                <Tesla />
-                <CIcon icon={cilPizza}  className="w-12 ml-10 text-orange-500"/>
+                
+                <img src='/images/awem365ii.png' className="m-5 w-28 h-24" />
+                <img src='/images/chickenbiryani.png' className="m-5 w-28 h-24" />
+                <img src='/images/awem365ii.png' className="m-5 w-28 h-24" />
+                <img src='/images/fish.png' className="m-5 w-28 h-24" />
+                <img src='/images/chickenbiryani.png' className="m-5 w-28 h-24" />
+                <img src='/images/fish.png' className="m-5 w-28 h-24" />
+                <img src='/images/burger.png' className="m-5 w-28 h-24" />
             </Marquee>
         </div>
     );
