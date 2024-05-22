@@ -8,7 +8,7 @@ function Attributes() {
     return (
         <div className='w-full h-fit mt-24 '>
             <h3 className="text-lg text-[#53c60b] my-6">Why us?</h3>
-          
+
             <div className='w-full flex flex-wrap justify-between text-center place-items-center '>
                 <div className="flex flex-col  items-center w-48 h-20 sm:h-36  m-2  rounded-xl border-b-2 shadow-md shadow-[#53c60b] border-b-[#53c60b] text-center py-4 px-2 mt-18 ">
                     <Fast />

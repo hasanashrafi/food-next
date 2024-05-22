@@ -12,10 +12,10 @@ function HomePage() {
             <Banner />
             <Attributes />
             <Definition />
-            <Companies/>
-            <Instruction/>
-            <Guide/>
-            <Restrictions/>
+            <Companies />
+            <Instruction />
+            <Guide />
+            <Restrictions />
         </div>
     )
 }
