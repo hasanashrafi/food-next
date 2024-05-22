@@ -8,7 +8,7 @@ import Restrictions from "../modules/Restriction"
 
 function HomePage() {
     return (
-        <div className=" justify-between p-4 ">
+        <div className="w-screen justify-between  ">
             <Banner />
             <Attributes />
             <Definition />

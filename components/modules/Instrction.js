@@ -2,7 +2,7 @@
 
 function Instruction() {
   return (
-    <div className='my-20'>
+    <div className='my-20 p-8'>
       <h3 className="text-md font-semibold leading-7  text-[#53c60b] mb-3">How to Order?</h3>
       <ul className="list-disc text-green-700">
         <li>Sign in (or create an account) and set your delivery address.</li>
