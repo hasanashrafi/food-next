@@ -13,7 +13,7 @@ function Layout({ children }) {
                 </div>
 
                 <div className='flex flex-wrap justify-around p-2 text-[#F5F5DC]  w-1/10 sm:w-48 md:w-48 xl:w-48 text-sm sm:text-xl sm:font-semibold   m-2'>
-                    <Link href='/menuPage' className='hover:text-white ' >Menu</Link>
+                    <Link href='/menu' className='hover:text-white ' >Menu</Link>
                     <Link href='/categories' className='hover:text-white ml-2 '>Categories</Link>
                 </div>
             </header>
