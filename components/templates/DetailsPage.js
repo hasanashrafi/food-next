@@ -71,7 +71,7 @@ function DetailsPage(data) {
                 </div>
                 <div className='p-4'>
                     <h4>Ingredients</h4>
-                    <ul className='list-disc  list-inside bg-red-200 '>
+                    <ul className='list-disc  list-inside '>
                         {ingredients.map((ingredient, index) =>
                             <li key={index} className='flex'>
                                 <p >{ingredient}</p>
