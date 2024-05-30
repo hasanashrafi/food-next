@@ -18,9 +18,9 @@ function DetailsPage(data) {
     return (
         <div className=' m-auto mt-50 w-full h-full p-2'>
             <h2 className='font-semibold text-xl border-b-2 mb-10 w-fit border-b-green-700'>
-            Details
+                Details
             </h2>
-           
+
             <div className='flex flex-row'>
                 <div className='flex my-5 p-3'>
                     <img src={`/images/${id}.jpeg`} alt={name} className='w-96 rounded hover:scale-95 ease-in duration-150' />
@@ -53,10 +53,10 @@ function DetailsPage(data) {
                                 )
                                 : null
                         }
-                <button className='flex w-38 hover:bg-white  hover:border-blue-700 hover:border hover:text-blue-800 ease-in duration-75 items-center place-content-center p-2 bg-blue-600 rounded my-4 text-white'>Add To Cart <FaBasketShopping className='ml-2 mb-1 text-lg'/>
-                </button>
+                        <button className='flex w-38 hover:bg-white  hover:border-blue-700 hover:border hover:text-blue-800 ease-in duration-75 items-center place-content-center p-2 bg-blue-600 rounded my-4 text-white'>Add To Cart <FaBasketShopping className='ml-2 mb-1 text-lg' />
+                        </button>
                     </div>
-                    
+
                 </div>
             </div>
             <div>
@@ -95,7 +95,7 @@ function DetailsPage(data) {
                         </div>
                     )}
                 </div>
-                
+
             </div>
 
         </div>
