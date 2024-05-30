@@ -71,7 +71,7 @@ function DetailsPage(data) {
                 </div>
                 <div className='flex flex-col m-auto  w-fit text-center place-content-center p-4 align-baseline bg-[#53c60b] rounded'>
                     <h4 className='font-semibold text-xl mb-1 p-2 text-center rounded text-white bg-[#307008]'>Ingredients</h4>
-                    <ul className=' m-3 p-1 text-gray-800 text-md'>
+                    <ul className=' m-3 p-1 text-gray-700 text-md'>
                         {ingredients.map((ingredient, index) =>
                             <li key={index} className={`${index % 2 ? "bg-[#53c60b]" : "bg-[#408f10] text-white"} p-2 rounded`}>
                                 <p >{ingredient}</p>
