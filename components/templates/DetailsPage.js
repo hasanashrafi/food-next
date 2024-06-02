@@ -2,7 +2,6 @@ import React from 'react'
 import { FaBasketShopping, FaLocationDot } from 'react-icons/fa6'
 import { MdAttachMoney } from 'react-icons/md'
 import { RiDiscountPercentLine } from 'react-icons/ri'
-import { IoFastFoodOutline } from "react-icons/io5";
 
 function DetailsPage(data) {
     const { id,
