@@ -33,11 +33,11 @@ export async function getStaticProps(context) {
     const { params: { id } } = context
 
 
-    // const res = await fetch(`http://localhost:4000/data/${id}`)
-    // const data = await res.json()
-
-    const res = await fetch(`${process.env.BASE_URL}/data/${id}`)
+    const res = await fetch(`http://localhost:4000/data/${id}`)
     const data = await res.json()
+
+    // const res = await fetch(`${process.env.BASE_URL}/data/${id}`)
+    // const data = await res.json()
 
     if (!data.id) {
         return {
