@@ -8,7 +8,7 @@ function DetailsPage(data) {
         name,
         price,
         discount,
-        introduction,
+        introduction, 
         details,
         ingredients,
         recipe
