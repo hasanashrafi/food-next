@@ -1,20 +1,20 @@
+import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 
 function CategoriesPage() {
     const [query, setQuery] = useState({ difficulty: "", time: "" });
-
-
+    const router = useRouter()
 
     const changeHandler = (e) => {
         setQuery({ ...query, [e.target.name]: e.target.value });
     }
 
     const searchHandler = () => {
-        console.log(query);
+        router.push({ pathname: "/categories", query })
     }
 
     return (
-        <div className='max-w-[900px] m-auto mt-[100px] min-h-screen'>
+        <div className='p-5 max-w-[900px] m-auto mt-[100px] min-h-screen'>
             <h2 className='border-b-4 border-b-[#53c60b] w-fit mb-[50px] text-lg'> Categories</h2>
             <div className=''>
                 <div className=''>
@@ -42,7 +42,7 @@ function CategoriesPage() {
                     </select>
                     <button
                         onClick={searchHandler}
-                        className='border-none bg-[#53c60b] text-white h-[39px] px-5 rounded-md cursor-pointer shadow-lg hover:bg-white hover:transition-all hover:text-[#53c60b]'>Search</button>
+                        className='outline-none border-none bg-[#53c60b] text-white h-[39px] px-5 rounded-md cursor-pointer shadow-lg hover:bg-white hover:transition-all hover:text-[#53c60b]'>Search</button>
                 </div>
             </div>
         </div>
