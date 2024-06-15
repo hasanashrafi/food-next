@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Banner() {
     return (
-        <div className='flex-col-reverse sm:flex sm:flex-row sm:text-2xl '>
+        <div className='flex-col-reverse sm:flex sm:flex-row p-3 '>
             <div className=' flex flex-col mt-5 text-center sm:text-justify sm:w-1/2'>
                 <h2 className="border-b-2 border-b-green-800 w-fit my-5 self-center sm:self-start ">YEMEK</h2>
                 <p className="font-semibold my-4">Food Delivery and Takeout!</p>
